@@ -1,0 +1,32 @@
+//Copyright fabi200123
+#include <bits/stdc++.h>
+
+using namespace std;
+
+bool isPrime(int n)
+{
+    // Corner case
+    if (n <= 1)
+        return false;
+
+    // Check from 2 to n-1
+    for (int i = 2; i < n; i++)
+        if (n % i == 0)
+            return false;
+
+    return true;
+}
+
+int main()
+{
+    int t,m,n;
+    cin>>t;
+    while(t--){
+        cin >> m;
+        cin >> n;
+        for(int i=m; i<=n; i++){
+            if(isPrime(i)) cout << i <<'\n';
+        }
+    }
+    return 0;
+}
