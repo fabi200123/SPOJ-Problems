@@ -10,4 +10,7 @@ SBSTR1 - https://www.spoj.com/problems/SBSTR1/
 
 PALIN - https://www.spoj.com/problems/PALIN/
 
+ARITH - https://www.spoj.com/problems/ARITH/
+
+
 
