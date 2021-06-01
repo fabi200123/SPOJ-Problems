@@ -12,5 +12,7 @@ PALIN - https://www.spoj.com/problems/PALIN/
 
 ARITH - https://www.spoj.com/problems/ARITH/
 
+ADDREV - https://www.spoj.com/problems/ADDREV/
+
 
 
